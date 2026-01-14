@@ -37,7 +37,8 @@ showdown.subParser('makehtml.hashHTMLBlocks', function (text, options, globals) 
         'output',
         'video',
         'details',
-        'p'
+        'p',
+        'svg'
       ],
       repFunc = function (wholeMatch, match, left, right) {
         var txt = wholeMatch;

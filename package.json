@@ -37,7 +37,8 @@
   "license": "MIT",
   "main": "./dist/showdown.js",
   "scripts": {
-    "test": "grunt test"
+    "test": "grunt test",
+    "build": "grunt build"
   },
   "bin": {
     "showdown": "bin/showdown.js"
