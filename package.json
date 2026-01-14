@@ -1,5 +1,5 @@
 {
-  "name": "showdown",
+  "name": "sillytavern-showdown",
   "version": "2.1.0",
   "description": "A Markdown to HTML converter written in Javascript",
   "author": "Estevão Santos",
@@ -27,17 +27,18 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/showdownjs/showdown.git",
-    "web": "https://github.com/showdownjs/showdown"
+    "url": "git+https://github.com/SillyTavern/showdown.git",
+    "web": "https://github.com/SillyTavern/showdown"
   },
   "funding": {
     "type" : "individual",
     "url" : "https://www.paypal.me/tiviesantos"
   },
   "license": "MIT",
-  "main": "./dist/showdown.js",
+  "main": "./dist/sillytavern-showdown.js",
   "scripts": {
-    "test": "grunt test"
+    "test": "grunt test",
+    "build": "grunt build --force"
   },
   "bin": {
     "showdown": "bin/showdown.js"
